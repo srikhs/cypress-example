@@ -1,14 +1,14 @@
 # Introduction 
-This is an example project about using Cypress with a react application along with build pipeline setup.
+This is an example project to run automated accessibility tests in CI/CD pipelines using Cypress for a react application.
 
 [![Build Status](https://dev.azure.com/saisrikanth-r/cypress-example/_apis/build/status/srikhs.cypress-example?branchName=master)](https://dev.azure.com/saisrikanth-r/cypress-example/_build/latest?definitionId=5&branchName=master)
 
 # Getting Started
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-This project uses - React + Redux saga + Typescript + Cypress + Office Fabric React.
+This project uses - React + Redux saga + Typescript + Cypress + axe-core + Office Fabric React.
 
-This example contains a React application with a very simple Contact form. The accessibility tests are run using Cypress. The azure devops build pipeline for this example is located at the pipelines folder of this repository.
+This example contains a React application with a very simple Contact form. The accessibility tests are run using Cypress and axe-core. The azure devops build pipeline for this example is located at the pipelines folder of this repository.
 
 ## Steps to run Cypress tests and the application
 1. Clone this Repository
