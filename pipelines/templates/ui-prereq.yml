@@ -1,0 +1,11 @@
+steps:
+  - task: NodeTool@0
+    displayName: 'Use Node 10.x'
+    inputs:
+      versionSpec: 10.x
+
+  - task: Npm@1
+    displayName: 'npm install'
+    inputs:
+      workingDir: 'cypress-contact-example'
+      verbose: false

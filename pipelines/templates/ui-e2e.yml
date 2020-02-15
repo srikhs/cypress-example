@@ -1,0 +1,31 @@
+jobs:
+  - job: cypress_e2e_tests
+    displayName: 'Cypress E2E Tests'
+    pool:
+      vmImage: 'windows-latest'
+    steps:
+      - template: ui-prereq.yml
+
+      - task: Npm@1
+        displayName: 'Cypress verify'
+        inputs:
+          command: custom
+          workingDir: 'cypress-contact-example'
+          verbose: false
+          customCommand: 'run cy:verify'
+
+      - task: Npm@1
+        displayName: 'Run Cypress tests - Dev'
+        inputs:
+          command: custom
+          workingDir: 'cypress-contact-example'
+          verbose: false
+          customCommand: 'run cypress-start-server-dev-test'
+        continueOnError: true
+
+      - task: PublishTestResults@2
+        displayName: "Publish Cypress Results"
+        inputs:
+          testResultsFormat: "JUnit"
+          testResultsFiles: "cypress-contact-example/**/*.xml"
+          mergeTestResults: true
