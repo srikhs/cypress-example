@@ -1,0 +1,81 @@
+section#contactusSuccess {
+  margin: auto;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.ms-Button-flexContainer {
+  .ms-Dropdown-optionText {
+    margin-left: 15px;
+  }
+}
+
+#contactus-form {
+  #contactus-details-section {
+    padding-top: 25px;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+
+  #contactus-dropdown-section {
+    padding-top: 10px;
+  }
+
+  #contactus-button-section {
+    margin-left: -18px;
+
+    #contactus-error-section {
+      padding-left: 25px;
+    }
+  }
+
+  #contactus-error-message {
+    padding-top: 15px;
+  }
+
+  #contactus-phone-helper-label {
+    padding: 12px 0px 0px 10px;
+  }
+
+  .thankyou {
+    font-weight: bold;
+  }
+
+  #issue {
+    height: 150px;
+  }
+
+  .recaptcha {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #contactUs-fields {
+    .ms-TextField {
+      padding: 10px;
+    }
+    .error {
+      padding-left: 10px;
+      color: #eb0000;
+    }
+  }
+
+  .loading-button-container {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 10px;
+
+    button {
+      padding: 4px;
+    }
+    .ms-Spinner {
+      margin-left: 3px;
+      margin-right: 0px;
+    }
+
+    i {
+      font-size: 14px;
+    }
+  }
+}
