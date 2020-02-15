@@ -1,7 +1,7 @@
 # Introduction 
 This is an example project about using Cypress with a react application along with build pipeline setup.
 
-[![Build Status](https://dev.azure.com/saisrikanth-r/cypress-example/_apis/build/status/cypress-example?branchName=master)](https://dev.azure.com/saisrikanth-r/cypress-example/_build/latest?definitionId=3&branchName=master)
+[![Build Status](https://dev.azure.com/saisrikanth-r/cypress-example/_apis/build/status/srikhs.cypress-example?branchName=master)](https://dev.azure.com/saisrikanth-r/cypress-example/_build/latest?definitionId=5&branchName=master)
 
 # Getting Started
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
