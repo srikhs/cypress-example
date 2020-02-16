@@ -13,7 +13,7 @@ This example contains a React application with a very simple Contact form. The a
 ## Steps to run Cypress tests and the application
 1. Clone this Repository
 ```
-git clone https://sarathak-examples@dev.azure.com/sarathak-examples/cypress-example/_git/cypress-example
+git clone https://github.com/srikhs/cypress-example.git
 ```
 2. Perform npm install to install the application and the dependencies
 
