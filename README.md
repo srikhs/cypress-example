@@ -1,3 +1,5 @@
+Read my article at https://medium.com/@srikhs/accessibility-by-design-from-an-engineering-perspective-dd34f45aea47 to understand the motive behind this process.
+
 # Introduction 
 This is an example project to run automated accessibility tests in CI/CD pipelines using Cypress for a react application.
 
