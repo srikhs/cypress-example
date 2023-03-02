@@ -90,7 +90,7 @@
     "@types/redux-form": "^8.1.0",
     "@types/webpack": "^4.4.25",
     "axe-core": "^3.3.2",
-    "cypress": "^3.8.2",
+    "cypress": "^12.7.0",
     "cypress-axe": "^0.5.1",
     "enzyme": "^3.9.0",
     "enzyme-adapter-react-16": "^1.10.0",
